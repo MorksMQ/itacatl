@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #2b604b;
+    background-color: #f0f5f1;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #eaf5ea;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav .logo a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #2b604b;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2b604b;
+    font-weight: bold;
+}
+
+nav ul li a.contact {
+    background-color: #ffb100;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f5fcf2;
+}
+
+.hero h1 {
+    font-size: 86px;
+    color: #2b604b;
+    margin-bottom: 40px;
+}
+.hero p {
+    font-size: 36px;
+    color: #2b604b;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #ffb100;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eaf5ea;
+
+    height: 100vh;
+}
+
+.productos h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 100px;
+}
+
+.product {
+    text-align: center;
+    width: 400px;
+    height: auto;
+}
+
+.maracuya {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+
+    border-radius: 25px;
+
+    background-image: url(imagenes/maracuya.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.salsas {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+
+    border-radius: 25px;
+
+    background-image: url(imagenes/salsas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.btn-secondary {
+    background-color: #2b604b;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+    padding: 60px 20px;
+
+    height: 100vh;
+}
+
+footer {
+    background-color: #2E5C43;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: left;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.ft1{
+    padding: 0 90px;
+
+}
+.ft2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+nav ul li::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 5px;
+    background-color: #fff;
+
+    transition: all 0.5s ease;
+    transform: translateX(-50%);
+}
+nav ul li:hover::before{
+    width: 100%;
+    background-color: #1bafc9;
+    border-radius: 15%;
+}
+.about1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80vw;
+}
+section.hero{
+    width: auto;
+    height: 100vh;
+}
+.a1{
+    position: relative;
+    top: 15vh;
+}
+.productos h2{
+    text-align: left;
+}
+.ab1{
+    width: 110vh;
+}
+.ad1{
+    width: 50vw;
+}
+.ad1 h2{
+    font-size: 56px;
+}
+.ad1 p{
+    font-size: 26px;
+}
+.ad2 img{
+    width: 450px;
+    height: 600px;
+}
+
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+}
+div.logo1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2E5C43;
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+nav ul li::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 5px;
+    background-color: #fff;
+
+    transition: all 0.5s ease;
+    transform: translateX(-50%);
+}
+nav ul li:hover::before{
+    width: 100%;
+    background-color: #1bafc9;
+    border-radius: 15%;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.contact-btn {
+    background-color: #F4AA31;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
