@@ -88,11 +88,11 @@ nav ul li a.contact {
     padding: 60px 20px;
     background-color: #eaf5ea;
 
-    height: 100vh;
+    height: fit-content;
 }
 
 .productos h2 {
-    font-size: 38px;
+    font-size: 3rem;
     margin-bottom: 40px;
 }
 
@@ -105,7 +105,7 @@ nav ul li a.contact {
 
 .product {
     text-align: center;
-    width: 400px;
+    width: 25vw;
     height: auto;
 }
 
@@ -235,20 +235,20 @@ section.hero{
     text-align: left;
 }
 .ab1{
-    width: 110vh;
+    width: 80vw;
 }
 .ad1{
     width: 50vw;
 }
 .ad1 h2{
-    font-size: 56px;
+    font-size: 3rem;
 }
 .ad1 p{
-    font-size: 26px;
+    font-size: 1rem;
 }
 .ad2 img{
-    width: 450px;
-    height: 600px;
+    width: 15rem;
+    height: 20rem;
 }
 
 
