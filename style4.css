@@ -82,8 +82,19 @@
     width: 40vw;
  }
  .m10{
+    width: 30vw;
+    height: 50vh;
 
+    border-radius: 25px;
+
+    background-image: url(imagenes/picarfrutas.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
  }
  .m11{
-    
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
  }

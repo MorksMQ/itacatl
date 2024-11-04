@@ -132,6 +132,10 @@ footer{
 footer h1, footer a, footer p, footer h3{
     color: var(--blanco);
 }
+
+footer h1{
+    font-size: 2rem;
+}
 .fo1{
     height: 40vh;
     width: 90vw;
