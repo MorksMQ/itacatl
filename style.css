@@ -24,6 +24,22 @@ h2{
     font-size: 2.2rem;
     color: var(--verde1);
 }
+h3{
+    font-size: 1.9rem;
+    color: var(--verde1);
+}
+h4{
+    font-size: 1.6rem;
+    color: var(--verde1);
+}
+h5{
+    font-size: 1.3rem;
+    color: var(--verde1);
+}
+h6{
+    font-size: 1rem;
+    color: var(--verde1);
+}
 p{
     font-size: .8rem;
     color: var(--verde1);
@@ -75,6 +91,9 @@ body{
 .icon1{
     width: 16px;
 
+}
+.icon2{
+    width: 45px;
 }
 /* ================== */
 /* HEADER */
